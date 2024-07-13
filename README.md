@@ -5,4 +5,4 @@
 
 > pip install -r requirements.txt
 
-3. genera un archivo `.env` que contenga la llave de OpenAI
+3. genera un archivo `.env` que contenga la llave de OpenAI como en `.env.example`
