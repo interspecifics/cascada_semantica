@@ -101,7 +101,7 @@ def main():
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')  # Clear the terminal content
 
-        query = input("")
+        query = input("\n\n")
         if query.lower() in ['exit', 'quit']:
             break
         print()
