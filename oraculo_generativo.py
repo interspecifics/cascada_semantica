@@ -1,10 +1,13 @@
 import openai
 
+# AQUÍ VA LA LLAVE - descomenta la próxima linea
+# openai.api_key = ''
+
 from dotenv import load_dotenv
 load_dotenv()
 
 import os
-openai.api_key = os.environ['OPENAI_API_KEY']
+# openai.api_key = os.environ['OPENAI_API_KEY']
 
 def gpt_transform_piece(texto, query):
     prompt = f'''Instrucciones:

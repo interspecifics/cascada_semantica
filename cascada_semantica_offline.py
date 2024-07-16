@@ -3,6 +3,11 @@ import time
 import sys
 import random
 import threading
+import openai
+
+# AQUÍ VA LA LLAVE - descomenta la próxima linea
+# openai.api_key = ''
+
 from langchain.vectorstores import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 
