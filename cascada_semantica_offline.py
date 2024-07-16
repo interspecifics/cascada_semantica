@@ -11,8 +11,8 @@ load_dotenv()
 
 # List of body-instruction strings
 body_instructions = [
-    # "un cuerpo debe explorarse para modificarse y entenderse\nexploremos\ntoma la cámara\nve primero a la cara, muéstrame tus ojos\nte estamos escaneando",
-    # "allí donde no se ve con tanta claridad hay que echar luz. Un cuerpo debe desprender su prótesis, necesita de otro cuerpo para lograrlo",
+    "un cuerpo debe explorarse para modificarse y entenderse\nexploremos\ntoma la cámara\nve primero a la cara, muéstrame tus ojos\nte estamos escaneando",
+    "allí donde no se ve con tanta claridad hay que echar luz. Un cuerpo debe desprender su prótesis, necesita de otro cuerpo para lograrlo",
     "un cuerpo debe Inyectarse “lenguicliterona”  para modificar su entorno",
     "un cuerpo transmite otro cuerpo y se desprende para llegar a la metamorfosis",
 ]
@@ -97,9 +97,10 @@ def main():
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')  # Clear the terminal content
 
-        query = input("")
+        query = input("\n\n")
         if query.lower() in ['exit', 'quit']:
             break
+        print()
         
         # Display a body instruction
         body_instruction_index += 1
